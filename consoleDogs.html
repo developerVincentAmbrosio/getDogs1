@@ -8,8 +8,18 @@
     type="text/css" />
   <link href="consoleDogs.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
 
+<header><h1>Want some random dog pics to brighten up your day?</h1></header>
+<body>
+  <form class="group">
+    <div class="item">
+      <label for="dogs">Please enter a number between 1 and 50: </label>
+      <input type="text" name="number-of-dogs" autofocus>
+    </div>
+    <div class="item">
+      <button type="submit" id="button">Click here!</button>
+    </div>  
+  </form>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="consoleDogs.js"></script>
 </body>
