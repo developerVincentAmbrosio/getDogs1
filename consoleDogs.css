@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+/* SECTIONS */
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 56px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+  color: black;
+}
+
+/* CLASSES */
