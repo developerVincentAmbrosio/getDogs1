@@ -1,11 +1,11 @@
 function getDogPics () {
   fetch('https://dog.ceo/api/breeds/image/random')
-  .then(response => response.json())
-  .then(responseJson => console.log(responseJson))
-//  .catch(error => alert('Something went wrong, please try again later'));
+    .then(response => response.json())
+    .then(responseJson => console.log(responseJson));
+  // .catch(error => alert('Something went wrong, please try again later'));
 }
 
-function gotDogPicsListener() {
+function gotDogPicsListener(number) {
   $('#button').submit(event => {
     event.preventDefault();
 //    const numberOfDogPics = $('#dogs').val();
@@ -21,5 +21,6 @@ function gotDogPicsListener() {
 // }
 
 $(function() {
+  console.log('ready');
   gotDogPicsListener();
 });
