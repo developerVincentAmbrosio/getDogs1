@@ -4,16 +4,20 @@
 
 /* SECTIONS */
 
-header, body {
-padding: 5px;
+body {
+background-color: green;
 }
 
 /* TYPOGRAPHY */
 
 h1, h2, form, label, button {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
+  color: orange;
   text-align: center;
+}
+
+form, label, button {
+  font-weight: 500;
 }
 
 h1 {
@@ -36,6 +40,13 @@ label {
 
 button {
   font-size: 18px;
+  color: green;
+  text-align: center;
+  background-color: orange;
+  margin-top: 3px;
+  border-radius: 5px;
+  border-width: 0px;
+  box-shadow: 1px 1px 0px 0px #fff;
 }
 
 /* CLASSES */
