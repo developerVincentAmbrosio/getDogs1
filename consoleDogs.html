@@ -12,14 +12,18 @@
 <header><h1>Want some random dog pics to brighten up your day?</h1></header>
 <body>
   <form class="group">
-    <!-- <div class="item">
+    <div class="item">
       <label for="dogs">Please enter a number between 1 and 50: </label><br>
-      <input type="text" name="dogs" id="dogs" autofocus="on" maxlength="3" required />
-    </div> -->
+      <input type="number" name="dogs" class="js-number-of-dogs" autofocus="on" min="1" max="50" value="3" required />
+    </div>
     <div class="item">
       <button type="submit" id="button">Click here!</button>
     </div>  
   </form>
+  <!--add containter here-->
+  <div class="js-dog-pics-container">
+
+  </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="consoleDogs.js"></script>
 </body>
